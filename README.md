@@ -15,33 +15,37 @@ The simulation follows specific growth rules: cells divide at regular intervals 
 
 To run the app in the development mode:
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Install dependencies:
-   ```bash
-   npm install
-4. Start the dev server
-    ```bash
-    npm start
+1. Clone the repository. 
+  ```
+  https://github.com/lex-pan/cell-growth.git
+  ```
+2. Install dependencies:
+  ```
+  npm install
+  ```
+3. Start the dev server
+  ```
+  npm start
+  ```
 Open http://localhost:3000 to view the application in your browser. The page will reload if you make edits, and you will also see any lint errors in the console.
 
 ## Project Structure
-
-/cell-growth
-│
-├── /public                # Public files served directly (e.g., index.html, favicon)
-│
-├── /src                   # Source files for the project
-│   ├── /components        # Reusable components like Cell
-│   ├── App.css            # Global CSS file for app
-│   ├── App.tsx            # Main application component
-│   ├── index.tsx          # Entry point for React application
-│
-├── package.json           # Project dependencies and scripts
-├── tsconfig.json          # TypeScript configuration
-├── .gitignore             # Files and directories to ignore in version control
-└── README.md              # Project documentation and instructions
-
+  ```
+  /cell-growth
+  │
+  ├── /public                # Public files served directly (e.g., index.html, favicon)
+  │
+  ├── /src                   # Source files for the project
+  │   ├── /components        # Reusable components like Cell
+  │   ├── App.css            # Global CSS file for app
+  │   ├── App.tsx            # Main application component
+  │   ├── index.tsx          # Entry point for React application
+  │
+  ├── package.json           # Project dependencies and scripts
+  ├── tsconfig.json          # TypeScript configuration
+  ├── .gitignore             # Files and directories to ignore in version control
+  └── README.md              # Project documentation and instructions
+  ```
 ### Key Components
 
 1. **App Component (`App.tsx`)**:
